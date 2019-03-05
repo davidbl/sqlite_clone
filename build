@@ -1,0 +1,3 @@
+#! /bin/bash
+
+docker run -it --rm -v $PWD:/work -w /work haskell ghc -o sqlite sqlite.hs

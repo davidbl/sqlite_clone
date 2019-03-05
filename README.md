@@ -43,4 +43,10 @@ to compile the code to an executable, run
 docker run -it --rm -v $PWD:/work -w /work haskell ghc -o sqlite sqlite.hs
 
 ```
+
+there is also as simple script to run the build
+```
+build
+```
+
 (This works on linux. For another OS,  ymmv)
